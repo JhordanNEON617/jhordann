@@ -1,0 +1,128 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+}
+
+.robot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.head {
+    width: 150px;
+    height: 150px;
+    background-color: #b0c4de;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.antenna {
+    width: 10px;
+    height: 50px;
+    background-color: #ff6347;
+    border-radius: 5px;
+    position: absolute;
+    top: -30px;
+}
+
+.antenna.left {
+    left: 30px;
+}
+
+.antenna.right {
+    right: 30px;
+}
+
+.eye {
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+}
+
+.eye.left {
+    left: 30px;
+}
+
+.eye.right {
+    right: 30px;
+}
+
+.mouth {
+    width: 80px;
+    height: 15px;
+    background-color: #333;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.body {
+    width: 180px;
+    height: 200px;
+    background-color: #4682b4;
+    border-radius: 15px;
+    margin-top: 20px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.arm {
+    width: 30px;
+    height: 120px;
+    background-color: #8fbc8f;
+    position: absolute;
+    top: 40px;
+    border-radius: 10px;
+}
+
+.arm.left {
+    left: -50px;
+}
+
+.arm.right {
+    right: -50px;
+}
+
+.panel {
+    width: 100px;
+    height: 70px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.legs {
+    display: flex;
+    justify-content: space-between;
+    width: 130px;
+    margin-top: 20px;
+}
+
+.leg {
+    width: 50px;
+    height: 100px;
+    background-color: #daa520;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
